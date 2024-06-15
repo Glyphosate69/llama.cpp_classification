@@ -10,7 +10,7 @@ from enum import Enum
 
 # Initialisation du modèle Llama
 llm = llama_cpp.Llama(
-    model_path="/home/yassir/models/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf",
+    model_path="/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf",
     n_ctx=2000,
     n_batch=2000,
     main_gpu=0,
